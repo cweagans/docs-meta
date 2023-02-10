@@ -11,7 +11,7 @@ quicklinks:
   - title: "Formatting"
     icon: installation
     description: "A quick run-down of Markdown and other formatting details."
-    href: "/meta/general/environments/"
+    href: "/meta/writing/formatting/"
   - title: "Shortcodes"
     icon: plugins
     description: "Extra formatting outside of the standard markdown functionality that is available."
