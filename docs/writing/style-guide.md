@@ -19,10 +19,6 @@ There are a few additional guidelines specific to this website that should be ke
 
 Don't omit information from project documentation because it may be risky or only address rare cases. Users experiencing the types of problems that this kind of documentation will help with are precisely the people who _need_ that documentation. Users should be fully informed by fully-detailed caveats and warnings.
 
-### Organization
-
-Documentation should be organized with the [divio documentation system](https://documentation.divio.com) in mind. It may be appropriate to diverge from that guidance for the sake of clarity or ease of consumption, but that system is a good starting point.
-
 ### Word choice
 
 The Google style guide includes many specific guidelines for words to use or not use in various contexts. There are a few additional cases for this documentation website:

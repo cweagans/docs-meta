@@ -97,13 +97,13 @@ A `callout` can be used to draw the reader's attention to something important th
 ### Example
 
 {{< callout title="This is the callout title" >}}
-This is some text for the callout.
+This is some text for the callout. **Markdown** _can_ be used here too.
 {{< /callout >}}
 
 ### Syntax
 ```markdown
 {{</* callout title="This is the callout title" */>}}
-This is some text for the callout.
+This is some text for the callout. **Markdown** _can_ be used here too.
 {{</* /callout */>}}
 ```
 
@@ -116,13 +116,13 @@ A `warning` should be used when presenting information that might be considered 
 ### Example
 
 {{< warning title="This is the warning title" >}}
-This is some text for the warning.
+This is some text for the warning. **Markdown** _can_ be used here too.
 {{< /warning >}}
 
 ### Syntax
 ```markdown
 {{</* warning title="This is the warning title" */>}}
-This is some text for the warning.
+This is some text for the warning. **Markdown** _can_ be used here too.
 {{</* /warning */>}}
 ```
 
@@ -146,7 +146,7 @@ The `quicklinks` shortcode should be inserted into your content wherever you'd l
 
 The quicklinks must also be defined in the front matter of the page that they are displayed on. 
 
-```markdown
+```yaml
 ---
 title: The Page Title
 quicklinks:
