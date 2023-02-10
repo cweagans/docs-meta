@@ -13,7 +13,7 @@ Below, you can see examples of all of the plain markdown formatting available to
 
 ## Paragraph styles
 
-Text can be **bold** or _italicized_ or ~~crossed out~~. Text can be `inline code`. You can also [link](https://example.com) to external pages (see [Shortcodes]({{< ref "shortcodes.md" >}}) if you need to link to internal pages or headings).
+Text can be **bold** or _italicized_ or ~~crossed out~~. Text can be `inline code`. You can also [link](https://example.com) to external pages (see the shortcodes page if you need to link to internal pages or headings).
 
 > Sometimes, you may need to quote something that somebody said.
 
@@ -83,8 +83,8 @@ You can also set alignment within columns:
 
 ---
 
-{{< details title="markdown source for reference (click to expand)" >}}
-```markdown
+{{< details title="markdown source for reference (click to expand)" >}} 
+~~~markdown
 [//]: # (This is how you write a comment in markdown)
 
 ## H2
@@ -93,7 +93,7 @@ You can also set alignment within columns:
 
 ## Paragraph styles
 
-Text can be **bold** or _italicized_ or ~~crossed out~~. Text can be `inline code`. You can also [link](https://example.com) to external pages (see [Shortcodes]({{< ref "shortcodes.md" >}}) if you need to link to internal pages or headings).
+Text can be **bold** or _italicized_ or ~~crossed out~~. Text can be `inline code`. You can also [link](https://example.com) to external pages (see the shortcodes page if you need to link to internal pages or headings).
 
 > Sometimes, you may need to quote something that somebody said.
 
@@ -101,24 +101,23 @@ You can show code in syntax-highlighted code blocks:
 
 [//]: # (Note that the slashes preceding the backticks on either side of the fenced code block below must be removed in real content. They had to be escaped to show the source inline like this.)
 
-\```json
+```json
 {
   "foo": "bar",
   "baz": 123
 }
-\```
-
+```
 
 You can render diagrams with mermaid (although they don't look very good right now):
 
-\```mermaid
+```mermaid
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-\```
+```
 
 You may also need to:
 * Put
@@ -163,7 +162,7 @@ You can also set alignment within columns:
 | Paragraph   | Text        | And more      |
 
 [^1]: This is the footnote
-```
+~~~
 
 
 {{< /details >}}
