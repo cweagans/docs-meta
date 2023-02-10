@@ -1,5 +1,6 @@
 ---
 title: Assumptions
+weight: 20
 ---
 
 Because this site automates a number of things related to documentation, there are some assumptions that are made about the projects that it interacts with. 

@@ -1,5 +1,6 @@
 ---
 title: Roadmap
+weight: 40
 ---
 * Roadmap
     * Redirects from .htaccess via a per-project configuration file (redirects.yaml or something along those lines, which generates .htaccess entries)

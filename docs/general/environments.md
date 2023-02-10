@@ -1,5 +1,6 @@
 ---
 title: Environments
+weight: 30
 ---
 
 There are two separate environments for this documentation site. Production can be found at https://docs.cweagans.net. Staging can be found at https://docs-staging.cweagans.net.

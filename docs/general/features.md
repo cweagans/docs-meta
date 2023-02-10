@@ -1,5 +1,6 @@
 ---
 title: Features
+weight: 10
 ---
 
 Like many people, I don't really enjoy writing documentation, so I tried to take most of the pain out of it. This site will do a lot of work around structuring the documentation that is written and making it look pretty.
@@ -13,6 +14,8 @@ There is a small amount of manual work that may need to be done to get things to
 ## Automatic table of contents
 
 If you're using a wide enough screen, you'll see that there is also a table of contents to the right of this text. The table of contents is generated from the heading structure in the document. It generally does the right thing most of the time, but it really helps if the text headings don't skip levels in either direction. It's probably a good idea to avoid doing that anyway.
+
+Note that the table of contents is only added when there are multiple headings in the document. Otherwise, the column won't show up at all.
 
 ## GitHub links
 
