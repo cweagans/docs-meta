@@ -26,6 +26,17 @@ You can show code in syntax-highlighted code blocks:
 }
 ```
 
+You can render diagrams with mermaid (although they don't look very good right now):
+
+```mermaid
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
 You may also need to:
 * Put
 * Items
@@ -95,6 +106,18 @@ You can show code in syntax-highlighted code blocks:
   "foo": "bar",
   "baz": 123
 }
+\```
+
+
+You can render diagrams with mermaid (although they don't look very good right now):
+
+\```mermaid
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
 \```
 
 You may also need to:
