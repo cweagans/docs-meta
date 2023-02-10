@@ -1,26 +1,11 @@
 # Contributing
 
-Please note that Composer Patches has a [code of conduct](CODE_OF_CONDUCT.md). By participating in this project, you
+Please note that this repository has a [code of conduct](CODE_OF_CONDUCT.md). By participating in this project, you
 agree to abide by its terms.
-
-## Reporting issues
-
-There are templates for bug reports and feature requests. Please use them. Issues opened with minimal information or not
-using one of the templates may be closed without comment.
-
-When reporting issues, please try to be as descriptive as possible and include as much relevant information as you can.
-When providing the output of a command, please run the command in "very very verbose" mode (for Composer commands, this
-is `-vvv`; e.g. `composer install -vvv`).
 
 ### Security vulnerabilities
 
 Please see the [security policy](SECURITY.md).
-
-### Support
-
-Support is handled through GitHub Discussions. Before asking for support, please read the relevant documentation. If an
-answer is too hard to find, please open an issue. Support requests submitted as an issue may be converted to a
-discussion or closed.
 
 ## Pull requests
 
@@ -31,9 +16,6 @@ has the `help-wanted` label, it's likely that a pull request adding the feature 
 ### Workflow
 
 Fork the project, create a feature branch, and send a pull request. Please sign your commits if possible.
-
-Any added code should have test coverage of some kind. All PHP files in the project should comply
-with [PSR-12](https://www.php-fig.org/psr/psr-12/).
 
 ### Coding style fixes
 
