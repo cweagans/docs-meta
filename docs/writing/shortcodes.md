@@ -46,6 +46,69 @@ Use a `relref` shortcode to link to internal pages or headings.
 
 ---
 
+## `highlight`
+Use a `highlight` shortcode to do code highlighting with additional options that aren't available via the normal fenced code block functionality.
+
+### Example
+{{< highlight php "hl_lines=15-17,linenostart=199" >}}
+
+use Composer\Plugin\Capable;
+use Composer\Plugin\PluginInterface;
+use cweagans\Composer\Capability\Downloader\DownloaderProvider;
+use cweagans\Composer\Capability\Patcher\PatcherProvider;
+use cweagans\Composer\Capability\Resolver\ResolverProvider;
+
+class YourPlugin implements PluginInterface, Capable
+{
+    /**
+     * @inheritDoc
+     */
+    public function getCapabilities(): array
+    {
+        return [
+            ResolverProvider::class => CoreResolverProvider::class,
+            DownloaderProvider::class => CoreDownloaderProvider::class,
+            PatcherProvider::class => CorePatcherProvider::class,
+        ];
+    }
+    
+    [...]
+}
+{{< /highlight >}}
+
+(note that the line numbers start higher than normal and that there are highlighted lines)
+
+### Syntax
+```markdown
+{{</* highlight php "hl_lines=15-17,linenostart=199" */>}}
+
+use Composer\Plugin\Capable;
+use Composer\Plugin\PluginInterface;
+use cweagans\Composer\Capability\Downloader\DownloaderProvider;
+use cweagans\Composer\Capability\Patcher\PatcherProvider;
+use cweagans\Composer\Capability\Resolver\ResolverProvider;
+
+class YourPlugin implements PluginInterface, Capable
+{
+    /**
+     * @inheritDoc
+     */
+    public function getCapabilities(): array
+    {
+        return [
+            ResolverProvider::class => CoreResolverProvider::class,
+            DownloaderProvider::class => CoreDownloaderProvider::class,
+            PatcherProvider::class => CorePatcherProvider::class,
+        ];
+    }
+    
+    [...]
+}
+{{</* /highlight */>}}
+```
+
+---
+
 ## Figure
 Use a `figure` shortcode to display an image with an attached caption.
 
