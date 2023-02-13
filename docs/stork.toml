@@ -1,6 +1,6 @@
 [input]
 base_directory = ""
-url_prefix = "https://docs.cweagans.net/meta"
+url_prefix = "/meta"
 frontmatter_handling = "Omit"
 files = [
     {path = "_index.md", url = "/", title = "Meta"},
