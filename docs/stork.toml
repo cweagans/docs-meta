@@ -1,0 +1,13 @@
+[input]
+base_directory = ""
+url_prefix = "https://docs.cweagans.net/meta"
+frontmatter_handling = "Omit"
+files = [
+    {path = "_index.md", url = "/", title = "Meta"},
+    {path = "general/assumptions.md", url = "/general/assumptions/", title = "Assumptions"},
+    {path = "general/environments.md", url = "/general/environments/", title = "Environments"},
+    {path = "general/features.md", url = "/general/features/", title = "Features"},
+    {path = "writing/formatting.md", url = "/writing/formatting/", title = "Formatting"},
+    {path = "writing/shortcodes.md", url = "/writing/shortcodes/", title = "Shortcodes"},
+    {path = "writing/style-guide.md", url = "/writing/style-guide/", title = "Style Guide"},
+]
